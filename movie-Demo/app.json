@@ -1,0 +1,53 @@
+{
+    "pages": [
+        
+        "pages/index/index",
+        "pages/indent/indent",
+        "pages/ticket/ticket",
+        "pages/login/login",
+        "pages/myself/myself",
+        "pages/register/register",
+        "pages/discovery/discovery",
+        "pages/cinema/cinema"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "",
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom"
+    },
+    "disableScroll": true,
+    "style": "v2",
+    "sitemapLocation": "sitemap.json",
+    "lazyCodeLoading": "requiredComponents",
+    "tabBar": {
+        "selectedColor": "#9F2137",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "iconPath": "./images/tab10.png",
+                "selectedIconPath": "./images/tab11.png",
+                "text": "首页"
+            },
+            {
+                "pagePath": "pages/cinema/cinema",
+                "iconPath": "./images/tab20.png",
+                "selectedIconPath": "./images/tab21.png",
+                "text": "影院"
+            },
+            {
+                "pagePath": "pages/discovery/discovery",
+                "iconPath": "./images/tab30.png",
+                "selectedIconPath": "./images/tab31.png",
+                "text": "发现"
+            },
+            {
+                "pagePath": "pages/myself/myself",
+                "iconPath": "./images/tab40.png",
+                "selectedIconPath": "./images/tab41.png",
+                "text": "我的"
+            }
+        ]
+    }
+}

@@ -1,0 +1,15 @@
+<!--pages/navbar/navbar.wxml-->
+<view class='nav-wrap' style='height: {{height*2 + 20}}px;'>
+  <!-- 导航栏背景图片 -->
+  <image class="backgroundimg" src="../../images/index00.png" bindload="imgLoaded" style="width:{{imageWidth}}px;height:{{imageHeight}}px" />
+  <!-- // 导航栏 中间的标题 -->
+  <view class='nav-title' wx:if='{{!navbarData.white}}' style='line-height: {{height*2 + 44}}px;'>
+    {{navbarData.title}}
+  </view>
+  <view class='nav-title' wx:else='{{!navbarData.white}}' style='line-height: {{height*2 + 44}}px; color:#fff'>  
+    {{navbarData.title}}
+  </view>
+  
+</view>
+<!-- 导航栏下面的背景图片 -->
+<image class="backgroundimg" src="../../images/index00.png" bindload="imgLoaded" style="width:{{imageWidth}}px;height:{{imageHeight}}px" />

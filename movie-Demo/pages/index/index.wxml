@@ -1,0 +1,91 @@
+<!--index.wxml-->
+<nav-bar navbar-data='{{nvabarData}}'></nav-bar>
+<scroll-view scroll-y style="height: 100%;">
+  <view class="header">
+    <swiper class="lunbo" indicator-dots="true" indicator-active-color="#fff" circular="true" autoplay="true" interval="3000">
+      <swiper-item>
+        <image src="../../images/lunbo01.png"></image>
+      </swiper-item>
+      <swiper-item>
+        <image src="../../images/lunbo02.png"></image>
+      </swiper-item>
+      <swiper-item>
+        <image src="../../images/lunbo03.png"></image>
+      </swiper-item>
+    </swiper>
+  </view>
+  <view class="body">
+    <view class="tab">
+      <text class="tab-item {{item==0?'active':''}} re" bindtap="changeItem" id="0">热映影片</text>
+      <text class="tab-item {{item==1?'active':''}} ji" bindtap="changeItem" id="1">即将上映</text>
+      <text class="all">全部影片</text>
+      <image src="../../images/jt.png"></image>
+    </view>
+    <view class="qvyv">
+      <swiper current="{{item}}" class="huadong" duration="10">
+        <swiper-item>
+          <scroll-view class="scroll-view_H" scroll-x="true" bindscroll="scroll" style="width: 100%">
+            <view class="scroll-view-item_H demo">
+              <image src="../../images/re01.png"></image>
+            </view>
+            <view class="scroll-view-item_H">
+              <image src="../../images/re02.png"></image>
+            </view>
+            <view class="scroll-view-item_H">
+              <image src="../../images/re03.png"></image>
+            </view>
+            <view class="scroll-view-item_H">
+              <image src="../../images/re04.png"></image>
+            </view>
+            <view class="scroll-view-item_H">
+              <image src="../../images/re05.png"></image>
+            </view>
+            <view class="scroll-view-item_H">
+              <image src="../../images/re06.png"></image>
+            </view>
+          </scroll-view>
+        </swiper-item>
+        <swiper-item>
+          <view class="page-section-spacing">
+            <scroll-view class="scroll-view_H" scroll-x="true" bindscroll="scroll" style="width: 100%">
+              <view class="scroll-view-item_H">
+                <image src="../../images/ji01.png"></image>
+              </view>
+              <view class="scroll-view-item_H">
+                <image src="../../images/ji02.png"></image>
+              </view>
+              <view class="scroll-view-item_H">
+                <image src="../../images/ji03.png"></image>
+              </view>
+              <view class="scroll-view-item_H">
+                <image src="../../images/ji04.png"></image>
+              </view>
+              <view class="scroll-view-item_H">
+                <image src="../../images/ji05.png"></image>
+              </view>
+            </scroll-view>
+          </view>
+        </swiper-item>
+      </swiper>
+    </view>
+  </view>
+  <view class="fuli">
+    <swiper class="lunbofuli" indicator-dots="true" indicator-active-color="#fff" circular="true" autoplay="true" interval="5500">
+      <swiper-item>
+        <image src="../../images/index03.png"></image>
+      </swiper-item>
+      <swiper-item>
+        <image src="../../images/index04.png"></image>
+      </swiper-item>
+    </swiper>
+  </view>
+  <view class="ying1">
+    <image src="../../images/index05.png" bindtap="ying" data-id="1" data-name="李茂扮太子" data-url="../../images/1.png"></image>
+  </view>
+  <view class="ying2">
+    <image src="../../images/index06.png" bindtap="ying" data-id="2" data-name="穿过寒冬拥抱你" data-url="../../images/2.png"></image>
+  </view>
+  <view class="ying3">
+    <image src="../../images/index07.png" bindtap="ying" data-id="3" data-name="反贪风暴5" data-url="../../images/3.png"></image>
+  </view>
+</scroll-view>

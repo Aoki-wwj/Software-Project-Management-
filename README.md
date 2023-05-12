@@ -13,3 +13,7 @@
 [Software project management plan--update.pptx](https://github.com/Aoki-wwj/Software-Project-Management-/blob/main/Software%20project%20management%20plan--update.pptx)--英文版项目计划书PPT（更新后的版本）
 
 [Software project management plan--update.docx](https://github.com/Aoki-wwj/Software-Project-Management-/blob/main/Software%20project%20management%20plan--update.docx)--英文版项目计划书（更新后的版本）
+
+[项目demo](https://github.com/Aoki-wwj/Software-Project-Management-/tree/main/movie-Demo)
+
+[项目代码](https://github.com/Aoki-wwj/Software-Project-Management-/tree/main/movie)

@@ -1,0 +1,27 @@
+<!--pages/discovery/discovery.wxml-->
+<view class="container">
+  <view class="z"></view>
+  <view class="one">
+    <view class="title">《喜羊羊与灰太狼之框出未来》花絮 对手出招</view>
+    <video src="http://localhost:3000/movie?id=1" poster="http://localhost:3000/image?id=111"></video>
+    <view class="pinglun">喜羊羊与灰太狼之框出未来 0评 3小时前</view>
+  </view>
+  <view class="xinwen">
+    <image src="../../images/xinwen.png"></image>
+  </view>
+  <view class="two">
+      <view class="title">《萌鸡小队》预告 萌鸡小队员欢乐集合啦！</view>
+      <video src="http://localhost:3000/movie?id=2" poster="http://localhost:3000/image?id=222 "></video>
+      <view class="pinglun">萌鸡小队：萌闯新世界 1评 1天前</view>
+  </view>
+  <view class="two">
+      <view class="title">《最初的梦想》片段 惊喜！比肩三傻现象级电影</view>
+      <video src="http://localhost:3000/movie?id=3" poster="http://localhost:3000/image?id=333"></video>
+      <view class="pinglun">最初的梦想 0评 1天前</view>
+  </view>
+  <view class="two">
+      <view class="title">《屋内有人》预告 “鬼”童惊魂</view>
+      <video src="http://localhost:3000/movie?id=4" poster="http://localhost:3000/image?id=444"></video>
+      <view class="pinglun">屋内有人 0评 1天前</view>
+  </view>
+</view>

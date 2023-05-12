@@ -1,0 +1,72 @@
+/* pages/login/login.wxss */
+.container{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 1219rpx;
+}
+.login{
+    width: 560rpx;
+    height: 850rpx;
+    float: left;
+    margin-top: 140rpx;
+    margin-left: 94rpx;
+    background-color: #fff;
+}
+.head{
+    width: 100%;
+    height: 130rpx;
+    line-height: 130rpx;
+    text-align: center;
+    font-size: 40rpx;
+    background-color: #FFC900;
+}
+.body{
+    width: 472rpx;
+    height: 400rpx;
+    margin-top: 40rpx;
+    margin-left: 43rpx;
+    border-bottom: 1rpx #d8d8d8 solid;
+    /* border: 1rpx solid red; */
+}
+.body input{
+    display: inline-block;
+    width: 451rpx;
+    height: 60rpx;
+    border: 1rpx solid #d8d8d8;   
+    font-size: 28rpx;
+    color: #666;
+    line-height: 60rpx;
+    padding: 6rpx 11rpx 6rpx 12rpx;
+    box-shadow: 0 0 5rpx #fff;
+    outline: none;
+    transition: box-shadow 0.25s linear 0s;
+    -webkit-transition: box-shadow 0.25s linear 0s;
+    margin-bottom: 45rpx;
+}
+.body button{
+    width: 1rpx;
+    height: 78rpx;
+    background-color: #ffa800;   
+    text-align: center;
+    line-height: 50rpx;
+    color: #000;
+    font-size: 38rpx;
+    font-weight: bold;
+    margin-top: 26rpx;
+}
+.foot{
+    width: 472rpx;
+    height: 85rpx;
+    line-height: 85rpx;
+    margin-left: 43rpx;
+    margin-top: 50rpx;
+    background: #f1f1f1;
+    text-align: center;
+    font-size: 32rpx;
+}
+.foot text{
+    display: inline;
+    color: #FC8998;
+}
+

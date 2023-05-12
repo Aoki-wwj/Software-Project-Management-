@@ -1,0 +1,19 @@
+/* pages/indent/indent.wxss */
+.indent{
+    width: 550rpx;
+    margin: 22rpx 0 60rpx 80rpx;
+    background-color: #F0F1F5;
+    border-radius: 18rpx;
+    border: 20rpx solid #F3CCD1;
+}
+.name{
+    margin-top: 30rpx;
+    text-align:center;
+    font-size: 40rpx;
+}
+.delete{
+    width: 200rpx !important;
+    margin: 50rpx 0 30rpx 95rpx;
+    color: #fff;
+    background-color: #E24C60;
+}

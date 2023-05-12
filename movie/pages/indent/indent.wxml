@@ -1,0 +1,5 @@
+<!--pages/indent/indent.wxml-->
+<view class="indent" wx:for="{{arrayList}}" wx:key="*this">
+    <view class="name">{{item.name}}</view>
+    <button class="delete" bindtap="delete" data-id="{{item.id}}">删除</button>
+</view>

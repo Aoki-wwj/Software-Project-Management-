@@ -1,0 +1,8 @@
+<!--pages/ticket/ticket.wxml-->
+<view class="head">
+    <image src="{{url}}"></image>
+</view>
+<view class="foot" bindtap="gopiao">
+    <image src="../../images/gopiao.png"></image>
+    <text>购  票</text>
+</view>

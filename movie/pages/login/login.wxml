@@ -1,0 +1,16 @@
+<!--pages/login/login.wxml-->
+<view class="container" style="background-image: url('../../images/login_bg.png');">
+    <view class="login">
+        <view class="head">
+            欢迎登录木槿校园
+        </view>
+        <view class="body">
+            <input name="username" type="text" placeholder="请输入账号" autocomplete="off" bindinput="syncUsername"></input>
+            <input name="password" type="password" placeholder="请输入密码" autocomplete="off" bindinput="syncPassword"></input>
+            <button type="button" bindtap="login">登  录</button>
+        </view>
+        <view class="foot">
+            没有账户？<text bindtap="goregister">立即注册</text>
+        </view>
+    </view>
+</view>

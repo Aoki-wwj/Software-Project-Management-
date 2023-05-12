@@ -1,0 +1,138 @@
+/* pages/myself/myself.wxss */
+.container{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 1247rpx;
+    background-color: #F0F1F5;
+}
+.header{
+    width: 100%;
+    height: 440rpx;
+    position: relative;
+}
+.header image{
+    width: 100%;
+}
+.head{
+    position: absolute;
+    width: 675rpx;
+    height: 120rpx;
+    margin-top: -340rpx;
+    margin-left: 37rpx;
+    /* border: 1rpx solid #000; */
+}
+.photo{
+    width: 120rpx;
+    height: 120rpx;
+    border-radius: 100%;
+    background-color: #fff;
+}
+.photo image{
+    width: 120rpx;
+    height: 120rpx;
+    border-radius: 100%;
+}
+.name{
+    display: inline;
+    font-size: 35rpx;
+    color: #fff;
+    float: left;
+    margin-top: -85rpx;
+    margin-left: 150rpx;
+}
+.login,.logout{
+    position: absolute;
+    display: inline;
+    font-size: 27rpx;
+    color: #fff;
+    float: left;
+    margin-top: -85rpx;
+    margin-left: 540rpx;
+}
+.tou{
+    position: absolute;
+    width: 675rpx;
+    height: 110rpx;
+    margin-left: 37rpx;
+    margin-top: -175rpx;
+    border-radius: 18rpx;
+}
+.tou image{
+    width: 100%;
+    height: 90rpx;
+    border-radius: 18rpx;
+}
+.ding{
+    position: absolute;
+    width: 673rpx;
+    height: 185rpx;
+    margin-left: 37rpx;
+    margin-top: -99rpx;
+    border-radius: 18rpx;
+    background-color: #fff; 
+}
+.ding1{
+    width: 334rpx;
+    height: 185rpx;
+    border-radius: 18rpx;
+}
+.ding1 image{
+    width: 100%;
+    height: 185rpx;
+    border-radius: 18rpx;
+}
+.ding2{
+    width: 338rpx;
+    height: 185rpx;
+    margin-top: -190rpx;
+    margin-left: 332rpx;
+    border-radius: 18rpx;
+}
+.ding2 image{
+    width: 100%;
+    height: 185rpx;
+    border-radius: 18rpx;
+}
+.you{
+    width: 674rpx;
+    height: 337rpx;
+    margin-left: 37rpx;
+    margin-top: 130rpx;
+    border-radius: 18rpx;
+    background-color: #fff; 
+}
+.you1{
+    width: 337rpx;
+    height: 100%;
+}
+.you1 image{
+    width: 100%;
+    height: 100%;
+    border-radius: 18rpx;
+}
+.you2{
+    width: 337rpx;
+    height: 100%;
+    margin-top: -337rpx;
+    margin-left: 337rpx;
+}
+.you2 image{
+    width: 100%;
+    height: 100%;
+    border-radius: 18rpx;
+}
+.foot{
+    width: 674rpx;
+    height: 275rpx;
+    margin-left: 37rpx;
+    margin-top: 35rpx;
+    border-radius: 18rpx;
+    background-color: #fff; 
+    /* border: 1rpx solid #000; */
+}
+.foot image{
+    width: 100%;
+    height: 100%;
+    border-radius: 18rpx;
+}

@@ -1,0 +1,111 @@
+/* pages/register/register.wxss */
+.container{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 1219rpx;
+}
+.register{
+    width: 680rpx;
+    height: 1015rpx;
+    float: left;
+    margin-top: 115rpx;
+    margin-left: 37rpx;
+    border: 20rpx solid #eeeeee;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+.top{
+    width: 100%;
+    height: 130rpx;
+    /* border: 1rpx solid red; */
+}
+.left {
+    width: 326rpx;
+    height: 150rpx;
+    float: left;
+    padding-top: 15rpx;
+    padding-left: 20rpx;
+    box-sizing: border-box;
+    /* border: 1rpx solid #000; */
+}
+.left > text:first-child {
+    font-size: 40rpx;
+    color: #ffcd26;
+    display: block;
+}
+.left > text:last-child {
+    font-size: 38rpx;
+    color: #a6a6a6;
+}
+.right{
+    width: 286rpx;
+    height: 100%;
+    float: right;
+    font-size: 26rpx;
+    padding: 25rpx 0 0 40rpx;
+    box-sizing: border-box;
+    /* border: 1rpx solid #000; */
+}
+.right text{
+    display: inline;
+    color: #FC8998;
+}
+.bottom {
+    width: 575rpx;
+    height: 820rpx;
+    margin-left: 32rpx;
+    margin-top: 20rpx;
+    font-size: 25rpx;
+    /* border: 1rpx solid red; */
+}
+.bottom_left{
+    width: 150rpx;
+    height: 100%;
+    /* border: 1rpx solid #000; */
+}
+.bottom_left text{
+    height: 60rpx;
+    display: block;
+    text-align: right;
+    font-size: 31rpx;
+    padding: 13rpx 0 6rpx 0;
+    margin: 22rpx 0 42rpx 0;
+    /* border: 1rpx solid #000; */
+}
+.bottom_right{
+    width: 397rpx;
+    height: 100%;
+    margin-top: -821rpx;
+    margin-left: 175rpx;
+    /* border: 1rpx solid #000; */
+}
+.bottom_right input{
+    display: inline-block;
+    width: 378rpx;
+    height: 60rpx;
+    border: 1rpx solid #a6a6a6;   
+    font-size: 28rpx;
+    color: #666;
+    line-height: 60rpx;
+    padding: 6rpx 11rpx 6rpx 12rpx;
+    margin: 10rpx 0 30rpx 0;
+    border-radius: 8rpx;
+}
+.radio-group{
+    font-size: 27rpx;
+    margin: 20rpx 0 40rpx 0;
+    /* border: 1rpx solid #000; */
+}
+.bottom_right button{
+    /* margin: 0 auto; */
+    float: left;
+    width: 225rpx !important;
+    height: 70rpx;
+    line-height: 40rpx;
+    background-color: #ffc900;
+    font-size: 30rpx;
+    margin-top: 20rpx;
+}
+
+

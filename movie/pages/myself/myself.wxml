@@ -1,0 +1,36 @@
+<!--pages/myself/myself.wxml-->
+<view class="container">
+    <view class="header">
+        <image src="../../images/mybei.png"></image>
+        <view class="head">
+            <view class="photo">
+                <image src="../../images/head.png"></image>
+            </view>
+            <text class="name">{{nickname}}</text>
+            <text class="login" wx:if="{{!islogin}}" bindtap="login">登录/注册</text>
+            <text class="logout" wx:if="{{islogin}}" bindtap="logout">退出登录</text>
+        </view>
+        <view class="tou">
+            <image src="../../images/tou.png"></image>
+        </view>
+        <view class="ding">
+            <view class="ding1">
+                <image src="../../images/dingdan.png" bindtap="indent"></image>
+            </view>
+            <view class="ding2">
+                <image src="../../images/qianbao.png"></image>
+            </view>
+        </view>
+    </view>
+    <view class="you">
+        <view class="you1">
+            <image src="../../images/youhui.png"></image>
+        </view>
+        <view class="you2">
+            <image src="../../images/huiyuan.png"></image>
+        </view>
+    </view>
+    <view class="foot">
+        <image src="../../images/shezhi.png"></image>
+    </view>
+</view>

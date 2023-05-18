@@ -14,6 +14,10 @@
 
 [Software project management plan--update.docx](https://github.com/Aoki-wwj/Software-Project-Management-/blob/main/Software%20project%20management%20plan--update.docx)--英文版项目计划书（更新后的版本）
 
-[项目demo](https://github.com/Aoki-wwj/Software-Project-Management-/tree/main/movie-Demo)--项目初始版本
+[movie-Demo](https://github.com/Aoki-wwj/Software-Project-Management-/tree/main/movie-Demo)--项目初始版本
 
-[项目代码](https://github.com/Aoki-wwj/Software-Project-Management-/tree/main/movie)--项目最终版本
+[movie](https://github.com/Aoki-wwj/Software-Project-Management-/tree/main/movie)--项目最终版本
+
+[movieserver](https://github.com/Aoki-wwj/Software-Project-Management-/tree/main/movieserver)--项目的本地服务器搭建
+
+[moviesql.sql](https://github.com/Aoki-wwj/Software-Project-Management-/blob/main/moviesql.sql)--项目数据库表

@@ -21,3 +21,13 @@
 [movieserver](https://github.com/Aoki-wwj/Software-Project-Management-/tree/main/movieserver)--项目的本地服务器搭建
 
 [moviesql.sql](https://github.com/Aoki-wwj/Software-Project-Management-/blob/main/moviesql.sql)--项目数据库表
+
+[index-test.js](https://github.com/Aoki-wwj/Software-Project-Management-/blob/main/index-test.js)--项目测试代码
+
+[Test plan.doc](https://github.com/Aoki-wwj/Software-Project-Management-/blob/main/Test%20plan.doc)--项目测试计划
+
+[Risk plan.docx](https://github.com/Aoki-wwj/Software-Project-Management-/blob/main/Risk%20plan.docx)--项目风险计划
+
+[Cinema ticketing system based on Node.js.pptx](https://github.com/Aoki-wwj/Software-Project-Management-/blob/main/Cinema%20ticketing%20system%20based%20on%20Node.js.pptx)--最终版项目报告PPT
+
+[Cinema ticketing system based on Node.js.docx](https://github.com/Aoki-wwj/Software-Project-Management-/blob/main/Cinema%20ticketing%20system%20based%20on%20Node.js.docx)--最终版项目报告
